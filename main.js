@@ -53,7 +53,7 @@ function draw(){
         circle(leftWristx, leftWristy, 20);
         song1.stop();
         if(song2Status == false){
-            song2.play;
+            song2.play();
             document.getElementById("song").innerHTML = "Playing - Peter Pan Song"
         }
     }
@@ -61,7 +61,7 @@ function draw(){
         circle(rightWristx, rightWristy, 20);
         song2.stop();
         if(song1Status == false){
-            song1.play;
+            song1.play();
             document.getElementById("song").innerHTML = "Playing - Harry Potter Theme Song"
         }
     }
